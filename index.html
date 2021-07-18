@@ -7,29 +7,33 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
-<body>
-
+<body style="background-color:#2e2e2e">
+  <font color="#ffe599" style="font-family:'Times New Roman', Times, serif">
+      <div class="col-md-12 jumbotron text-center">
+        <font color="#ffffff">
+          <h1>Belly Button Biodiversity Dashboard</h1>
+          <p>Use the interactive charts below to explore the dataset</p>
+        </font>
+      </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
+
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
-          <h5><b>Test Subject ID No.:</b></h5>
+        <div class="well" style="background-color:#434343"> 
+          <h4><b>Test Subject ID No.:</b></h4>
           <!-- <select id="selDataset"></select> -->
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <select id="selDataset" onchange="optionChanged(this.value)" style="background-color:#2e2e2e"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="sample-metadata" class="panel-body" style="background-color:#434343"></div>
         </div>
       </div>
       <div class="col-md-5">
